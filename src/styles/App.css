@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+:where(.css-dev-only-do-not-override-xu9wm8).ant-layout {
+  background-color: #fafafa;
+}
+
+
+.login-signup-col-size{
+  height:470px;
+}
+
+.input-box {
+  width: 180px;
+  margin: 0 13px;
+}
+.ant-table table {
+  font-size: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .custome-responsive-table {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.bar-chart {
+  /* background: transparent linear-gradient(62deg,#00369e,#005cfd 53%,#a18dff) 0 0 no-repeat padding-box; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12156862745098039);
+  border-radius: 8px;
+}
+canvas {
+  background: transparent linear-gradient(62deg, #fdfbfb, #ffffff 53%, #efecff)
+    0 0 no-repeat padding-box;
+  border-radius: 8px;
+}
+
+.custome-login-page-style {
+  /* background: rgb(255, 255, 255); */
+  /* height: 100vh; */
+  /* padding: 0 10%; */
+  width: 70%;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.063) 0px 0px 40px;
+  border-radius: 5px;
+}
+
+.login-form {
+  /* width: 350px; */
+  padding: 10px 30px;
+  /* border:2px solid red; */
+  font-size: 16px;
+}
+
+.dot {
+  height: 85px;
+  width: 85px;
+  background-color: #e1e0e0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 15px 0;
+  background-color: #d4d4d4;
+}
+.line::before {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #8b8b8b;
+  padding: 0 15px;
+}
+
+.login-with-google {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: "1px solid #f3f3f3";
+  background: transparent;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* CSS */
+@media (min-width:100px) and (max-width: 800px) {
+  .hidden-on-md-sm {
+    display: none;
+  }
+  .custome-login-page-style{
+    width:85%;
+  }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .custom-card-class{
+    row-gap: 5px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .custom-card-class{
+    row-gap: 5px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .custom-card-class{
+    row-gap: 5px;
+  }
+}
+
+
