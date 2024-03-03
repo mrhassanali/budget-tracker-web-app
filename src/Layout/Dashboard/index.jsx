@@ -21,7 +21,7 @@ const { Footer, Header, Content, Sider } = Layout;
 
 const Dashboard = () => {
   const ref = useRef(null);
-  const { signoutUser,totalYearData,dashboardFilterYear,setDashboardFilterYear,checkLogin}=useFirebase();
+  const { signoutUser,totalYearData,dashboardFilterYear,setDashboardFilterYear,checkLogin,user}=useFirebase();
   const [loadings, setLoadings] = useState([]);
   const [selectYear,setSelectYear] = useState([]);
   const location = useLocation();

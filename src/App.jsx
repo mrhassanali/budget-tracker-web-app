@@ -73,20 +73,15 @@ function App() {
   );
 
   return (
-    <RouterProvider router={router} >
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
+    <>
+      <ToastContainer position="top-right" autoClose={5000} />
+      <RouterProvider router={router}>
         hideProgressBar={false}
         newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
+        closeOnClick rtl={false}
+        pauseOnFocusLoss draggable pauseOnHover theme="light"
       </RouterProvider>
+    </>
   );
 }
 
